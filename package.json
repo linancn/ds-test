@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "axios":"^1.7.9",
+    "@msgpack/msgpack":"^3.0.0-beta2",
+    "sm-crypto": "^0.3.13",
+    "dotenv": "^16.4.7"
+  }
+}
