@@ -10,7 +10,7 @@ const writePlain=async (msg)=>{
     const date=new Date();
     const curTimestamp = date.getTime();
     // const userId =user.user_id;
-    const userId = 999;
+    const userId = Number(process.env.USER_ID);
     //1 构造WriteInfo
     const WriteInfo = {
         UserID: userId,
